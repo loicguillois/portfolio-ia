@@ -1,0 +1,4 @@
+keras==2.13.1
+tfds-nightly==4.9.3.dev202309170044
+Jinja2==3.1.2
+tensorflow==2.13.0
