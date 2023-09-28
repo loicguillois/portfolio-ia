@@ -19,3 +19,13 @@ Ce projet montre comment on peut implémenter un moteur de recommandation en s'a
 ### Colorisation
 
 Ce projet présente un système de colorisation d'images utilisant une architecture vanilla (auto-encodeur) avec le framework Keras. Entrainé sur un sous-ensemble d'ImageNet, le modèle vise à revitaliser des images en noir et blanc en générant des couleurs naturelles. Des techniques de post-traitement ont été intégrées pour affiner la colorimétrie, offrant ainsi des résultats visuellement plus intéressant.
+
+## Séries temporelles
+
+### Traces GPS: Détection du type d'activité
+
+À partir de la trace GPS, être capable de détecter le type d'activité : vélo ou course à pied ? Ce modèle s'appuie sur un réseau de neuronne et en particulier un réseau LSTM particulièrement adapté aux séries temporelles.
+
+### Traces GPS: Prédiction de trajectoires
+
+À partir de la trace GPS, être capable de prédire la suite du parcours. Il s'agit donc d'une IA dite générative. Ce modèle met également en oeuvre un réseau LSTM. Malheuresement les trajectoires sont trop erratiques. Il doit être possible d'améliorer l'efficacité de ce modèle en intégrant la carte routière pour le vélo sur route et IGN pour la course à pied sur chemin. Pour les trajectoires "à vol d'avion", bien plus linéaire, ce modèle serait suffisant.
