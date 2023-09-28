@@ -2,6 +2,12 @@
 
 Bienvenue sur mon dépôt GitHub où je présente une collection de cas d'usages et de démonstrateurs autour de l'Intelligence Artificielle (IA) et du Machine Learning. Ce portfolio vise à illustrer mon éventail de compétences à travers des exemples concrets basés sur des données ouvertes.
 
+## Caractéristiques
+
+### Prédiction
+
+L'objectif de ce projet est de prédire les émissions de CO2 d'une automobile en s'appuyant sur sa fiche technique (poids, puissance, consommation...). La méthode d'entraînement retenue est XGBoost, qui fonctionne particulièrement bien pour ce type de prédiction d'une variable numérique (continue).
+
 ## Textes
 
 ### Moteur de recommandation
